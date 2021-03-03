@@ -36,13 +36,17 @@ npm run test
 ## Entrada
 
 ##### Parámetro 1
-- **nombre**: num
-- **tipo**: Number (Integer)
-- **limitaciones**: 0 < **num** <= 10
+- **nombre**: rookCell
+- **tipo**: String
+
+##### Parámetro 1
+- **nombre**: destinationCell
+- **tipo**: String
+
 
 ## Salida
 
-- **tipo**: Number (Integer)
+- **tipo**: Boolean
 
 ## Ejemplo
 **1** debe retornar **1** porque: 1 == 1
