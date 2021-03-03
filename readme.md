@@ -79,7 +79,7 @@ npm run test
 - **Parametros**: ( rookCell = "E3", destinationCell = "F4" )
 - **Resultado esperado**: false
 ---
-### Test 6    
+### Test 7
 
 - **Parametros**: ( rookCell = "A7", destinationCell = "H7" )
 - **Resultado esperado**: true
