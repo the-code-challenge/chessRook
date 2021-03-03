@@ -1,4 +1,4 @@
-const challengeFunction = function(param){
+const challengeFunction = function(rookCell, destinationCell){
     /* YOUR CODE HERE */
     let result
 
