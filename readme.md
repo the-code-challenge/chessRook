@@ -15,7 +15,7 @@ La posición de una pieza en el tablero de ajedrez se identifica mediante una co
 
 Por ejemplo: "A1", "G7", "F3"  
 
-![Tablero Ajedrez](https://firebasestorage.googleapis.com/v0/b/fullstack-extraordinary.appspot.com/o/TheCodeChallenge%2FtablerAjedrez.jpg?alt=media&token=8864816b-a981-4541-a203-a9dd69fe37a1)
+![Tablero Ajedrez](https://firebasestorage.googleapis.com/v0/b/fullstack-extraordinary.appspot.com/o/TheCodeChallenge%2FtablerAjedrez.jpg?alt=media&token=d6ba9a45-7646-49a1-b7c2-45138e9df7fd)
 
 ## Instrucciones
 - Crear un nuevo repositorio utilizando este repositorio como template (Boton: use this template).
@@ -49,7 +49,7 @@ npm run test
 - **tipo**: Boolean
 
 ## Ejemplo
-**1** debe retornar **1** porque: 1 == 1
+Si la torre esta en **B3** y el destino es **B6** debe retornar **true** porque la torre puede alcanzar la celda objetivo desplazandose de forma recta hacia la derecha.
 
 ## Tests
 
