@@ -1,6 +1,6 @@
 # Code Challenge: ChessRook
 
-Digamos que estamos colaborando en el desarrollo de un juego de ajedrez online y debemos validar el movimiento de un usuario sobre su torre.
+Estamos colaborando en el desarrollo de un juego de ajedrez online y debemos validar el movimiento de un usuario sobre su torre.
 
 Dada la posición de la torre (parámetro 1) y la posición destino que elegió el usuario (parametro 2) validar si el movimiento es valido. Se debe retornar **true** si el movimiento es valido o **false** si es invalido. 
 
@@ -51,15 +51,35 @@ npm run test
 
 ### Test 1  
 
-- **Parametros**: param = 1  
-- **Resultado esperado**: xxx
+- **Parametros**: ( rookCell = "B3", destinationCell = "B6" )
+- **Resultado esperado**: true
 ---
 ### Test 2  
 
-- **Parametros**:  param = 2  
-- **Resultado esperado**: xxx
+- **Parametros**: ( rookCell = "H2", destinationCell = "F4" )
+- **Resultado esperado**: false
 ---
 ### Test 3  
 
-- **Parametros**: param = 3  
-- **Resultado esperado**: xxx
+- **Parametros**: ( rookCell = "C1", destinationCell = "C8" )
+- **Resultado esperado**: true
+---
+### Test 4  
+
+- **Parametros**: ( rookCell = "G8", destinationCell = "G4" )
+- **Resultado esperado**: true
+---
+### Test 5  
+
+- **Parametros**: ( rookCell = "D2", destinationCell = "H2" )
+- **Resultado esperado**: true
+---
+### Test 6    
+
+- **Parametros**: ( rookCell = "E3", destinationCell = "F4" )
+- **Resultado esperado**: false
+---
+### Test 6    
+
+- **Parametros**: ( rookCell = "A7", destinationCell = "H7" )
+- **Resultado esperado**: true
