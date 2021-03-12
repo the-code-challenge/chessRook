@@ -57,7 +57,7 @@ describe('ChallengeTemplate', () => {
     /**
      * TEST DESCRIPTION
      */
-    it('Test6: when rookCell="E3" and destinationCell= "F4" should return true', () => {
+    it('Test6: when rookCell="E3" and destinationCell= "F4" should return false', () => {
         let result = challengeFunction("E3","F4")
         let expected = false
 
